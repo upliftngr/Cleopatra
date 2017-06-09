@@ -119,13 +119,24 @@ dog.number_of_legs = 4
 fish = pet()
 fish.number_of_legs = 0
 fish.count_legs()
+```
 
 ---
 ### Module 4
 <br>
 <span style="color:brown; font-size:0.6em;">Data Structures and Algorithms</span>
 <br>
-Programming is the process of taking an algorithm and encoding it into a notation, a programming
-language, so that it can be executed by a computer.
+is an arrangement of data in a computer's memory or even disk storage.
+
+---
+### Arrays & List
+<br>
+The main difference between arrays and lists. While python lists can contain values corresponding to different data types, arrays in python can only contain values corresponding to same data type.
+<br>
+
+---
+### Stack
+<br>
+Stack is a last-in-first-out strategy data structure; this means that the element stored in last will be removed first.
 
 

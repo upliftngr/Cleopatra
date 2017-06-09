@@ -28,6 +28,8 @@ step list of instructions for solving any instance of the problem that might ari
 <br>
 Programming is the process of taking an algorithm and encoding it into a notation, a programming
 language, so that it can be executed by a computer.
+---
+
 
 #### Loops
 <br>

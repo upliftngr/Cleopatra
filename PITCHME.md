@@ -12,7 +12,7 @@
 
 ### Module 1
 <br>
-<span style="color:brown">introduction to Computer Science</span>
+<span style="color:brown">Introduction to Computer Science</span>
 <br>
 Computer Science is the study of problems, problem-solving, and the solutions that preceed.
 <br>
@@ -29,13 +29,15 @@ step list of instructions for solving any instance of the problem that might ari
 Programming is the process of taking an algorithm and encoding it into a notation, a programming
 language, so that it can be executed by a computer.
 
-####Loops
+#### Loops
+<br>
+is a sequence of instructions that is continually repeated until a certain condition is reached.
 ```python
 for i in 2, 4, 6, 8
 print (i)
 ```
 ---
-####Challenge 1
+#### Challenge 1
 Can you make a range equivalent to [2, 4, 6, 8]
 <br>
 ```python
@@ -49,7 +51,7 @@ print (even)
 ```
 
 ---
-####Variable
+#### Variable
 <br>
 variable can be used to manipulate values inside code.
 ```python
@@ -60,7 +62,7 @@ print(total)
 ```
 <br>
 ---
-####Challenge 2
+#### Challenge 2
 <br>
 Can you make a one line Python statement that uses both sum and range to print the sum of the numbers 1
 through 10?
@@ -74,6 +76,7 @@ print sum (range (1,10))
 
 ####Functions
 <br>
+are relatively self-contained, relatively independent pieces of code that make up a larger program.
 ```python
 def say_hello_to(name):
 	print("Hello " + name)
@@ -81,8 +84,9 @@ say_hello_to("Miranda")
 say_hello_to("Fred")
 ```
 ---
-####Conditional
+#### Conditional
 <br>
+A statement that controls the flow of execution depending on some condition.
 ```python
 angle = 5
 if angle > 0:
@@ -94,7 +98,7 @@ print("Not turning at all")
 ```
 
 ---
-####Module 3
+#### Module 3
 <span style="color:brown; font-size:0.6em;">Object Oriented Programming (OOP)</span>
 **class**
 
@@ -102,21 +106,24 @@ print("Not turning at all")
 class pet()
 	number_of_legs = 0
 	
-	def sleep(self):
-		print "zzzzzzzzzzzzzzzzzzz"
+	def run(self):
+		print "flash"
 		
 	def count_legs(self):
 		print "I have %s Legs " % self.number_of_legs
 dog = pet()
-dog.sleep()
+dog.run()
 dog.number_of_legs = 4
 fish = pet()
 fish.number_of_legs = 0
 fish.count_legs()
+
 ---
+### Module 4
+<br>
+<span style="color:brown; font-size:0.6em;">Data Structures and Algorithms</span>
+<br>
+Programming is the process of taking an algorithm and encoding it into a notation, a programming
+language, so that it can be executed by a computer.
 
-
-####Module 4
-<span style="color:brown; font-size:0.6em;">Object Oriented Programming (OOP)</span>
-**class**
 
